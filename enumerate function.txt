@@ -1,0 +1,25 @@
+enumerate 函数用于遍历序列中的元素以及它们的下标：
+>>> for i,j in enumerate(('a','b','c')):
+ print i,j
+ 
+0 a
+1 b
+2 c
+>>> for i,j in enumerate([1,2,3]):
+ print i,j
+ 
+0 1
+1 2
+2 3
+>>> for i,j in enumerate({'a':1,'b':2}):
+ print i,j
+ 
+0 a
+1 b
+>>> for i,j in enumerate('abc'):
+ print i,j
+ 
+0 a
+1 b
+2 c
+ 
